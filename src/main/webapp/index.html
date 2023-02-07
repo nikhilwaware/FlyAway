@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FlyAway</title>
+<style type="text/css">
+body{
+background-image: url('Airlines.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-size: 20px;
+color: white; 
+}
+h1 {
+text-align: center;
+font-size: 58px;
+}
+input[type=submit]{
+background-color:white;
+color : blue;
+border : 1px ;
+border-color: blue;
+padding : 5px;
+}
+input[type=reset]{
+background-color: white;
+color : green;
+border : 1px green;
+padding : 5px;
+}
+input[type=text]{
+height : 15px;
+border : 1px;
+border-color: blue;
+}
+#navigationBar{
+position: fixed;
+top : 20px;
+right : 50px;
+}
+a{
+text-decoration: none;
+color : white;
+font-size: 28px;
+
+}
+</style>
+</head>
+<body>
+	<div>
+		<h1>Welcome to FlyAway</h1>
+		<h3>Book Flight</h3>
+		
+	<form id="form" action="Search" method="get">
+		From : <input id="source" type="text" name="source" placeholder="Enter Source" required="required">
+		To : <input id="destination" type="text" name="destination" placeholder="Enter Destination" required="required"><br><br>
+		Travel Date : <input type="date" name="travelDate" placeholder="dd-mm-yyyy" required="required"><br><br>
+		<input type="submit" value="Search Flight">
+		<input type="reset" value="Reset">
+	</form>
+	</div>
+	
+	<div id="navigationBar">
+		<a href="adminLogin.jsp">Admin Login</a>
+		
+	</div>
+</body>
+</html>

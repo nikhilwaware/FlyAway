@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FlyAway</title>
+<style type="text/css">
+body {
+background-image: url('bg1.jpg');
+background-repeat: no-repeat;
+background-attachment:fixed;
+text-align : left;
+margin : 15px;
+
+}
+a{
+text-decoration: none;
+font-size: 22px;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+</style>
+</head>
+<body>
+<div>
+
+<a href="index.html">Home Page</a>
+<h2>Add New Flight</h2>
+
+<form action="AddFlightServlet" method="get">
+	<table>
+	<tr>
+	<td>Flight ID </td> 
+	<td><input type="text" name="flightId"></td>
+	</tr>
+	<tr>
+	<td>Flight Name</td>
+	<td><input type="text" name="newflight"></td>
+	</tr>
+	<tr>
+	<td>From</td>
+	<td><input type="text" name="source"></td>
+	</tr>
+	<tr>
+	<td>To  </td>
+	<td><input type="text" name="destination"></td>
+	</tr>
+	<tr>
+	<td><h4>Add Fare</h4></td>
+	<td></td></tr>
+	<tr>
+	<td>Economy Class </td>
+	<td><input type="text" name="eco"></td>
+	</tr>
+	<tr>
+	<td>Business Class </td>
+	<td> <input type="text" name="busi"></td>
+	</tr>
+	<tr>
+	<td>Premium Class </td>
+	<td><input type="text" name="pre"></td>
+	</tr>
+	<tr>
+	<td>Days</td>
+	<td><input type="text" name="days"></td>
+	</tr>
+	
+	<tr><td><input type="submit" value="Add Flight"></td></tr>
+	
+	</table>
+</form>
+</div>
+</body>
+</html>
