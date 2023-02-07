@@ -49,6 +49,7 @@ public class Search extends HttpServlet {
 			
 				admin.searchSourceDestination(source, destination);
 			out.println("<body style='background-color : #e6e6e6; font-size : 40px; margin-top:30px'>");
+			out.println("<a href='index.html'>Back</a>");
 			out.print("<form action='PasengerDetails.jsp'>");
 			out.print("<table><tr><th>FlightId</th><th>FlightName</th><th>Source</th><th>Destination</th>"
 					+"<th>Economy</th><th>Business</th><th>Premium</th><th>Days</th></tr>");

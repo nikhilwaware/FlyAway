@@ -79,6 +79,6 @@ out.println("<h4 style='color:red'>Source and Destination data does not Exists</
 %>
 
 </table>
-<a href="adminDashboard.jsp">Back</a>
+<a href="adminDashboard.html">Back</a>
 </body>
 </html>

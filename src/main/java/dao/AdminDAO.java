@@ -65,7 +65,7 @@ public static AddFlight searchSourceDestination(String source, String Destinatio
 			int premium = rs.getInt("premium");
 			String days = rs.getString("days");
 			addAdmin = new AddFlight(flightId,flightName,source,Destination,economy,business,premium,days);
-//			System.out.println(flightId + ":"+flightName+":"+src+":"+dest+":"+economy+":"+business+":"+premium+":"+days);
+
 			
 			addAdmin.setFlightId(rs.getInt(1));
 			addAdmin.setFlightName(rs.getString(2));
@@ -75,7 +75,7 @@ public static AddFlight searchSourceDestination(String source, String Destinatio
 			addAdmin.setBusiness(rs.getInt(6));
 			addAdmin.setPremium(rs.getInt(7));
 			addAdmin.setDays(rs.getString(8));
-//			System.out.println(flightId + ":"+flightName+":"+src+":"+dest+":"+economy+":"+business+":"+premium);
+
 			
 			
 		}

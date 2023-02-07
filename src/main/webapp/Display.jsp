@@ -86,7 +86,6 @@ color : #004d99;
 </div>
 <a href="adminDashboard.html">Back</a>
 <div id="navBar">
-	<a href="adminChangePassword.html">Change Password</a>
 </div>
 </body>
 </html>
